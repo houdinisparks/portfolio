@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500';
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  zoom: 100%; }
+
+.row {
+  height: inherit; }
+
+.container-fluid {
+  background-color: #FFF8ED; }
+  .container-fluid #left-nav-bar {
+    background-color: #818479;
+    height: inherit; }
+    .container-fluid #left-nav-bar h1 {
+      font-weight: 100; }
+    .container-fluid #left-nav-bar .name {
+      display: inline-block;
+      /* 			text-align-last:justify; */
+      text-align-last: center; }
+  .container-fluid #content {
+    height: inherit; }
+  .container-fluid #nav-bar-content {
+    padding-top: 100%;
+    padding-left: 12%;
+    color: #ffffff;
+    font-weight: 300 !important; }
+
+#nav-bar-buttons {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+  margin-left: 11%;
+  margin-top: 6%; }
+  #nav-bar-buttons .btn {
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 auto 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 100%; }
+    @media (min-width: 400px) {
+      #nav-bar-buttons .btn {
+        display: inline-block;
+        margin-right: 2.5em; }
+        #nav-bar-buttons .btn:nth-of-type(even) {
+          margin-right: 0; } }
+    @media (min-width: 600px) {
+      #nav-bar-buttons .btn:nth-of-type(even) {
+        margin-right: 2.5em; }
+      #nav-bar-buttons .btn:nth-of-type(5) {
+        margin-right: 0; } }
+    #nav-bar-buttons .btn:hover {
+      text-decoration: none; }
+  #nav-bar-buttons .btn-1 {
+    background: #7d8075;
+    font-weight: 100; }
+    #nav-bar-buttons .btn-1 svg {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+    #nav-bar-buttons .btn-1 rect {
+      fill: none;
+      stroke: #fff;
+      stroke-width: 2;
+      stroke-dasharray: 422, 0; }
+  #nav-bar-buttons .btn-1:hover {
+    background: rgba(225, 51, 45, 0);
+    font-weight: 900;
+    letter-spacing: 1px; }

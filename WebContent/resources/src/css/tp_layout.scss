@@ -1,0 +1,133 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500';
+
+$background-color: #FFF8ED;
+$nav-bar-color: #818479;
+$nav-bar-font-colors: #ffffff;
+
+html, body{
+	height: 100%;
+	 box-sizing: border-box;
+	 font-family: Roboto, sans-serif;
+	 zoom:100%;
+}
+
+.row{
+	height:inherit;
+}
+
+.container-fluid {
+	background-color: $background-color;
+	#left-nav-bar{
+		background-color: $nav-bar-color;
+		height:inherit;
+		
+		
+		h1{
+			font-weight: 100 ;
+		}
+		
+		.name{
+			display: inline-block;
+/* 			text-align-last:justify; */
+			text-align-last:center;
+
+		}
+		
+	}
+	
+	#content{
+		height:inherit;
+	}
+	
+	#nav-bar-content{
+		padding-top:100%;
+		padding-left: 12%;
+		color:$nav-bar-font-colors;
+		font-weight: 300 !important;
+		
+	}
+}
+
+
+
+//colors
+$red: #E1332D;
+$white: #ffffff;
+
+// NAV-BAR BUTTONS
+#nav-bar-buttons {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+     margin-left: 11%;
+    margin-top: 6%;
+  
+  .btn {
+	  color: $white;
+	  cursor: pointer;
+	  display: block;
+	  font-size:16px;
+	  font-weight: 400;
+	  line-height: 45px;
+	  margin: 0 auto 2em;
+	  max-width: 160px; 
+	  position: relative;
+	  text-decoration: none;
+	  vertical-align: middle;
+	  width: 100%; 
+  
+	  @media(min-width: 400px) {
+	    display: inline-block;
+	    margin-right: 2.5em;
+	  
+	    &:nth-of-type(even) {
+	      margin-right: 0;
+	    }
+	  }
+  
+	  @media(min-width: 600px) {
+	  
+	    &:nth-of-type(even) {
+	      margin-right: 2.5em;
+	    }
+	    
+	    &:nth-of-type(5) {
+	      margin-right: 0;
+	    }
+	    
+	  }
+  
+	  &:hover { text-decoration: none; }
+	  
+	}
+	
+  .btn-1 {
+  background: darken($nav-bar-color, 1.5%);
+  font-weight: 100;
+  
+  svg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+  }
+}
+
+.btn-1:hover {
+  background: rgba($red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+}
+
+  
+}
