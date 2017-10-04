@@ -14,7 +14,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  *         two context: - DispatcherServlet - ContextLoaderListener
  * 
  */
-public class SpringMVCTutorialWebAppInitializer 
+public class PortfolioWebAppInitializer 
 	extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override

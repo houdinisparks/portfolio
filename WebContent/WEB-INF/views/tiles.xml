@@ -7,7 +7,7 @@
 	</definition>
 	<definition name="aboutme" extends="layout">
 		<put-attribute name="content" value="/WEB-INF/views/aboutme.jsp" />
-		<put-list-attribute name="csslist" inherit="true">
+		<put-list-attribute name="csslist_dev" inherit="true">
 			<add-attribute value="/resources/css/aboutme.css" />
 		</put-list-attribute>
 	</definition>

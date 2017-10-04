@@ -15,7 +15,7 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<excludes>
-						<exclude>**/WebContent/node_modules/*</exclude>
+						<exclude>**/node_modules/*</exclude>
 					</excludes>
 				</configuration>
 			</plugin>
@@ -47,6 +47,7 @@
 				<version>3.0.0</version>
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
+					<packagingExcludes>**/node_modules/</packagingExcludes>
 				</configuration>
 			</plugin>
 		</plugins>

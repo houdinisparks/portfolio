@@ -47,11 +47,11 @@
 		</div>
 		<p>
 			This is the tech stack I often use for web development. IDE used is
-			Java Eclipse Neon for both server side and jsp pages (written in
-			html), and Chrome Dev Tools for styling css (using scss preprocesser)
-			<br> <br>I have also developed Sharepoint Provider-Hosted
-			ASP.NET Core web applications using the .NET 4.5 libraries with
-			Visual Studios.
+			Java Eclipse Neon when configuring server side sources and jsp pages,
+			and Chrome Dev Tools for styling css (using SASS preprocesser) <br>
+			<br>I have also developed Sharepoint Provider-Hosted ASP.NET
+			Core web applications using the .NET 4.5 libraries with Visual
+			Studios.
 		</p>
 	</div>
 
@@ -74,7 +74,7 @@
 			<p>For data analysis, these are the concepts mainly applied in
 				the predictive modelling projects that I have been involved with.
 
-				Feature selection are cross-validation techniques are applied before
+				Feature selection and cross-validation techniques are applied before
 				training, with a loss optimisation based on a logistic function.</p>
 		</div>
 	</div>

@@ -3,7 +3,10 @@
 var gulp = require('gulp'),
  gutil = require("gulp-util"),
  sass = require('gulp-sass'),
- fs = require("fs");
+ fs = require("fs"),
+concat = require("gulp-concat"),
+uglify = require("gulp-uglify-es"),
+rename = require("gulp-rename");
  
 gulp.task('sass', function () {
 //	
@@ -15,3 +18,4 @@ gulp.task('sass', function () {
 gulp.task('sass:watch', function () {
   gulp.watch('./resources/src/css/*.scss', ['sass']);
 });
+
