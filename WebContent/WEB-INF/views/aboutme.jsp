@@ -72,15 +72,12 @@
 					neural networks<br>alexnet
 				</li>
 			</ul>
-			<div>
-				<p>For data analysis, these are the concepts mainly applied in
-					the predictive modelling projects that I have been involved with.
 
-					Feature selection and cross-validation techniques are applied
-					before training, with a loss optimisation based on a logistic
-					function.</p>
-			</div>
 		</div>
+		<p>For data analysis, these are the concepts mainly applied in the
+			predictive modelling projects that I have been involved with. Feature
+			selection and cross-validation techniques are applied before
+			training, with a loss optimisation based on a logistic function.</p>
 	</div>
 	<div class="col-md-3 blue-board" id="board-3">
 		<div class="board-content">
