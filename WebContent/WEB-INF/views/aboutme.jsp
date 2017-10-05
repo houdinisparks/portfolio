@@ -17,13 +17,14 @@
 
 	<div class="col-md-3 blue-board" id="board-1">
 		<div class="board-content">
-			<h1 class="header">
+			<h2 class="header">
 				WEB<br>DEVELOPMENT
-			</h1>
-			<div id="client-sever">
-				client server
-				<hr>
-			</div>
+				<div id="client-sever">
+					client server
+					<hr>
+				</div>
+			</h2>
+
 			<div id="client-server-content">
 				<ul id="client-content">
 					<li>HTML</li>
@@ -56,35 +57,41 @@
 	</div>
 
 	<div class="col-md-3 blue-board" id="board-2">
-		<h1 class="header">
-			DATA<br>ANALYTICS
-			<hr>
-		</h1>
-		<ul id="board-2-content">
-			<li>
-				regression<br>(multinomial)
-			</li>
-			<li>classifiers / svm</li>
-			<li>k-means clustering</li>
-			<li>
-				neural networks<br>alexnet
-			</li>
-		</ul>
-		<div>
-			<p>For data analysis, these are the concepts mainly applied in
-				the predictive modelling projects that I have been involved with.
+		<div class="board-content">
+			<h2 class="header">
+				DATA<br>ANALYTICS
+				<hr>
+			</h2>
+			<ul id="board-2-content">
+				<li>
+					regression<br>(multinomial)
+				</li>
+				<li>classifiers / svm</li>
+				<li>k-means clustering</li>
+				<li>
+					neural networks<br>alexnet
+				</li>
+			</ul>
+			<div>
+				<p>For data analysis, these are the concepts mainly applied in
+					the predictive modelling projects that I have been involved with.
 
-				Feature selection and cross-validation techniques are applied before
-				training, with a loss optimisation based on a logistic function.</p>
+					Feature selection and cross-validation techniques are applied
+					before training, with a loss optimisation based on a logistic
+					function.</p>
+			</div>
 		</div>
 	</div>
 	<div class="col-md-3 blue-board" id="board-3">
 		<div class="board-content">
-			<h1 class="header">
+			<h2 class="header">
 				IOT<br>DEVELOPMENT
 				<hr>
-			</h1>
-			<img src="<s:url value="resources/imgs/iot.png"/>">
+			</h2>
+			<div id="img-container">
+				<img src="<s:url value="resources/imgs/iot.png"/>">
+
+			</div>
 
 		</div>
 		<p>In IOT, projects dealt mainly with a wifi connection between a

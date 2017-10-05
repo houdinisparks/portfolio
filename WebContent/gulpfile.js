@@ -3,10 +3,7 @@
 var gulp = require('gulp'),
  gutil = require("gulp-util"),
  sass = require('gulp-sass'),
- fs = require("fs"),
-concat = require("gulp-concat"),
-uglify = require("gulp-uglify-es"),
-rename = require("gulp-rename");
+ fs = require("fs");
  
 gulp.task('sass', function () {
 //	

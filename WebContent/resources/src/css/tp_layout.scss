@@ -8,7 +8,7 @@ html, body{
 	height: 100%;
 	 box-sizing: border-box;
 	 font-family: Roboto, sans-serif;
-	 zoom:80%;
+	 font-size: 12px;
 }
 
 .row{
@@ -17,14 +17,26 @@ html, body{
 
 .container-fluid {
 	background-color: $background-color;
+	
+	h1{
+		font-weight: 300 ;
+		font-size: 3.5em;
+	}
+	
+	h2{
+		font-weight: 100 ;
+		font-size: 2.0em;
+	}
+	
+	h3{
+	    font-size: 1.5em;
+   		font-weight: 100;
+	}
+
 	#left-nav-bar{
 		background-color: $nav-bar-color;
 		height:inherit;
-		
-		
-		h1{
-			font-weight: 100 ;
-		}
+
 		
 		.name{
 			display: inline-block;
@@ -33,18 +45,24 @@ html, body{
 
 		}
 		
+		.row{
+			position: relative;
+				
+			#nav-bar-content{
+				color:$nav-bar-font-colors;
+				font-weight: 300 !important;
+			    display: inline-block;
+			    position: absolute;
+			    top: 30%;
+			    text-align: center;
+				
+			}
+		}
+		
 	}
 	
 	#content{
 		height:inherit;
-	}
-	
-	#nav-bar-content{
-		padding-top:100%;
-		padding-left: 12%;
-		color:$nav-bar-font-colors;
-		font-weight: 300 !important;
-		
 	}
 }
 
@@ -60,14 +78,17 @@ $white: #ffffff;
   transition-property: all;
   transition-duration: .6s;
   transition-timing-function: ease;
-     margin-left: 11%;
-    margin-top: 6%;
+	width: 65%;
+    margin: auto;
+    margin-top: 5%;
   
   .btn {
+  	
+  
 	  color: $white;
 	  cursor: pointer;
 	  display: block;
-	  font-size:16px;
+	  font-size:1em;
 	  font-weight: 400;
 	  line-height: 45px;
 	  margin: 0 auto 2em;
@@ -122,10 +143,21 @@ $white: #ffffff;
   }
 }
 
+.nav-button-text{
+	
+
+   font-size: 1.5em;
+}
+
 .btn-1:hover {
   background: rgba($red, 0);
-  font-weight: 900;
-  letter-spacing: 1px;
+  
+	.nav-button-text{
+	    font-weight: 400;
+	 	letter-spacing: 1px;
+	}
+
+
   
 }
 
