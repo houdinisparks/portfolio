@@ -47,7 +47,7 @@ $client-server-content:#F7BFE8;
 	background-image: -webkit-linear-gradient(88deg, $background-color 29%, $header-color 30%);
     height: 15%;
 	.title{
-		 transform: translateY(40%);
+		 top:3%;
 	}
 }
 
@@ -57,7 +57,7 @@ $client-server-content:#F7BFE8;
 	background-image: -webkit-linear-gradient(92deg, $header-color 71%,  $background-color 72%);
 	height: 15%;
 	.title{
-		 transform: translateY(80%);
+		 bottom:3%;
 	}
 }
 
@@ -72,7 +72,9 @@ $client-server-content:#F7BFE8;
     
     .board-content{
     	height: 100%;
+   	    max-width: 100%;
    	    display: inline-block;
+   	    overflow: auto;
     }
     
     .header{
@@ -98,7 +100,8 @@ $client-server-content:#F7BFE8;
 	    font-size: 1.7rem;
 		font-weight: 400;
 		letter-spacing: 4px;
-		line-height: 30px;
+/* 		line-height: 30px; */
+		vertical-align:middle;
 		padding:0px;
 		margin:0px;
 		
@@ -119,64 +122,65 @@ $client-server-content:#F7BFE8;
 
 }
 
-	#board-1{
-    	#client-sever {
-    		color:$background-color;
+#board-1{
+   	#client-sever {
+   		color:$background-color;
 /*     	    padding-left: 8%; */
 /* 			padding-right: 8%; */
-			text-align-last: justify;
-		    font-size: 1.7rem;
-			font-weight:100;
-		    letter-spacing: normal;
-	        padding-right: 10px;
-            padding-top: 0.5em;
-
-		}
-		
-		#client-server-content{
-			color:$client-server-content;
-			text-transform: lowercase;
-		    text-align: initial;
-			
-			#client-content{
-
-			}
-			
-			#server-content{
-			
-				float: right;
-			    text-align: right;
-			
-			}
-		}
-		
-	}
-	
-	#board-2{
-    	max-height: 65%;
-    	top: 8%;
-    	
-    	
-    	#board-2-content{
-   		    text-align: center;
-    	}
+		text-align-last: justify;
+	    font-size: 1.7rem;
+		font-weight:100;
+	    letter-spacing: normal;
+        padding-right: 10px;
+           padding-top: 0.5em;
 
 	}
 	
-	#board-3{
-    	max-height: 60%;
-    	top: 13%;
-    	
-    	#img-container{
-		    display: inline-block;
-			
-			height: 100%;
-			img{
-				width: auto;
-	   			height: 57%;
-			}
-    	}
+	#client-server-content{
+		color:$client-server-content;
+		text-transform: lowercase;
+	    text-align: initial;
+		
+		#client-content{
+
+		}
+		
+		#server-content{
+		
+			float: right;
+		    text-align: right;
+		
+		}
 	}
+}
+
+#board-2{
+    max-height: 66%;
+    top: 7%;
+   	
+   	
+   	#board-2-content{
+  		    text-align: center;
+        display: block;
+   	}
+
+}
+	
+#board-3{
+   	max-height: 60%;
+   	top: 13%;
+   	
+   	#img-container{
+/* 	    display: inline-block; */
+		height: auto;
+    	max-width: 100%;
+		background-image: url("resources/imgs/iot.png");	
+		img{
+			max-width: 100%;
+		}
+
+   	}
+}
 
 
 #skills{

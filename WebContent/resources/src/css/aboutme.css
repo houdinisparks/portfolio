@@ -30,14 +30,14 @@
   background-image: -webkit-linear-gradient(88deg, #FFF8ED 29%, #CEC1AB 30%);
   height: 15%; }
   #header .title {
-    transform: translateY(40%); }
+    top: 3%; }
 
 #footer {
   background-color: #CEC1AB;
   background-image: -webkit-linear-gradient(92deg, #CEC1AB 71%, #FFF8ED 72%);
   height: 15%; }
   #footer .title {
-    transform: translateY(80%); }
+    bottom: 3%; }
 
 .blue-board {
   background-color: #434A5B;
@@ -48,7 +48,9 @@
   text-align: center; }
   .blue-board .board-content {
     height: 100%;
-    display: inline-block; }
+    max-width: 100%;
+    display: inline-block;
+    overflow: auto; }
   .blue-board .header {
     color: #FFF8ED;
     font-weight: 400;
@@ -68,7 +70,8 @@
     font-size: 1.7rem;
     font-weight: 400;
     letter-spacing: 4px;
-    line-height: 30px;
+    /* 		line-height: 30px; */
+    vertical-align: middle;
     padding: 0px;
     margin: 0px; }
     .blue-board ul li {
@@ -101,20 +104,22 @@
     text-align: right; }
 
 #board-2 {
-  max-height: 65%;
-  top: 8%; }
+  max-height: 66%;
+  top: 7%; }
   #board-2 #board-2-content {
-    text-align: center; }
+    text-align: center;
+    display: block; }
 
 #board-3 {
   max-height: 60%;
   top: 13%; }
   #board-3 #img-container {
-    display: inline-block;
-    height: 100%; }
+    /* 	    display: inline-block; */
+    height: auto;
+    max-width: 100%;
+    background-image: url("resources/imgs/iot.png"); }
     #board-3 #img-container img {
-      width: auto;
-      height: 57%; }
+      max-width: 100%; }
 
 #skills {
   height: 70%; }

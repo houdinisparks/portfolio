@@ -98,6 +98,7 @@
 	</div>
 
 </div>
+
 <div class="row" id="footer">
 	<div class="title">
 		<h1>education</h1>
@@ -107,5 +108,4 @@
 			<p>Singapore University of Technology and Design</p>
 		</div>
 	</div>
-
 </div>

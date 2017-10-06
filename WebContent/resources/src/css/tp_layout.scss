@@ -8,7 +8,14 @@ html, body{
 	height: 100%;
 	 box-sizing: border-box;
 	 font-family: Roboto, sans-serif;
-	 font-size: 12px;
+	 
+	 @media screen and (min-device-width : 1285px){
+	 	 font-size: 12px;
+	 }
+	 
+	  @media screen and (max-device-width : 1285px){
+	  	font-size: 9px;
+	  }
 }
 
 .row{
