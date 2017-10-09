@@ -69,28 +69,26 @@
 </head>
 <body class="container-fluid">
 	<div class="row">
-		<div id="left-nav-bar" class="col-lg-2">
-			<div class="row">
-				<div class="col-lg-12" id="nav-bar-content">
-					<div class="name">
-						<h2>Wong Yan Yee</h2>
-						<h3>fresh graduate</h3>
+		<div id="left-nav-bar" class="col-md-2 col-sm-12">
+			<div class="row" id="nav-bar-content">
+				<div class="name col-xs-4 col-xs-offset-1 col-md-offset-1 col-md-10">
+					<h2>Wong Yan Yee</h2>
+					<h3>fresh graduate</h3>
+				</div>
+				<div id="nav-bar-buttons" class="col-xs-7 col-md-offset-1 col-md-10">
+					<div class="row">
+						<a class="btn btn-1 col-xs-5 col-md-offset-2 col-md-8"
+							href="<s:url value="/home"/>"> <svg> <rect x="0" y="0"
+									fill="none" width="100%" height="100%" /> </svg>
+							<div class="nav-button-text">about me</div>
 
-					</div>
-					<div id="nav-bar-buttons">
-						<a class="btn btn-1" href="<s:url value="/home"/>"> <svg> <rect
-									x="0" y="0" fill="none" width="100%" height="100%" /> </svg>
-							<div class="nav-button-text">
-							about me
-							</div>
-
-						</a> <a class="btn btn-1" href="<s:url value="/myprojects"/>"> <svg> <rect
-									x="0" y="0" fill="none" width="100%" height="100%" /> </svg>
-							<div class="nav-button-text">
-							my projects
-							</div>
+						</a> <a class="btn btn-1 col-xs-5 col-xs-offset-1 col-md-offset-2 col-md-8"
+							href="<s:url value="/myprojects"/>"> <svg> <rect x="0"
+									y="0" fill="none" width="100%" height="100%" /> </svg>
+							<div class="nav-button-text">my projects</div>
 						</a>
 					</div>
+
 				</div>
 			</div>
 		</div>
