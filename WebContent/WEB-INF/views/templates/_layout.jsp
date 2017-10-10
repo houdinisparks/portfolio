@@ -80,7 +80,7 @@
 						<a class="btn btn-1 col-xs-5 col-md-offset-2 col-md-8"
 							href="<s:url value="/home"/>"> <svg> <rect x="0" y="0"
 									fill="none" width="100%" height="100%" /> </svg>
-							<div class="nav-button-text">about me</div>
+							<div class="nav-button-text">about mee</div>
 
 						</a> <a class="btn btn-1 col-xs-5 col-xs-offset-1 col-md-offset-2 col-md-8"
 							href="<s:url value="/myprojects"/>"> <svg> <rect x="0"
