@@ -61,12 +61,7 @@
 		</div>
 
 		<p>
-			This is the tech stack I often use for web development. IDE used is
-			Java Eclipse Neon when configuring server side sources and jsp pages,
-			and Chrome Dev Tools for styling css (using SASS preprocesser) <br>
-			<br>I have also developed Sharepoint Provider-Hosted ASP.NET
-			Core web applications using the .NET 4.5 libraries with Visual
-			Studios.
+			Hi jw
 		</p>
 	</div>
 
@@ -93,10 +88,7 @@
 			</div>
 		</div>
 
-		<p>For data analysis, these are the concepts mainly applied in the
-			predictive modelling projects that I have been involved with. Feature
-			selection and cross-validation techniques are applied before
-			training, with a loss optimisation based on a logistic function.</p>
+		<p>what u looking at</p>
 	</div>
 	<div
 		class="col-xs-offset-1 col-xs-10 col-xs-offset-1 col-md-offset-1 col-md-4 partition">
@@ -111,9 +103,7 @@
 				</div>
 			</div>
 		</div>
-		<p>In IOT, projects dealt mainly with a wifi connection between a
-			Arduino board equipped with a ESP8266 wifi chip, that communicates
-			with an Android application and ThingSpeak server.</p>
+		<p>You dont sly one</p>
 
 	</div>
 
