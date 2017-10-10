@@ -52,6 +52,13 @@ $client-server-content:#F7BFE8;
 	
 		.title-content-header{
 			font-weight: 400;
+			
+			@media only screen and (max-width : 768px){
+				+ p{
+					line-height: 1.2em;
+	    			margin-top: -2%;
+				}
+			}
 		}
  
 	}

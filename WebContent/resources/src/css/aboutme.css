@@ -37,6 +37,10 @@
     padding-top: 0.3em; }
     .title .title-content .title-content-header {
       font-weight: 400; }
+      @media only screen and (max-width: 768px) {
+        .title .title-content .title-content-header + p {
+          line-height: 1.2em;
+          margin-top: -2%; } }
 
 @media only screen and (min-width: 768px) {
   .padding-right-4 {

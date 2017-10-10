@@ -86,7 +86,7 @@
 					<li>classifiers / svm</li>
 					<li>k-means clustering</li>
 					<li>
-						neural networks<br>alexnet
+						neural networks<br>(alexnet)
 					</li>
 				</ul>
 
