@@ -18,8 +18,8 @@
 		</put-list-attribute>
 		<put-list-attribute name="scriptlist_dev" inherit="true">
 			<add-attribute
-				value="resources/bower_components/masonry/dist/masonry.pkgd.min.js" />
-			<add-attribute value="resources/js/myprojects.js" />
+				value="/resources/bower_components/masonry/dist/masonry.pkgd.min.js" />
+			<add-attribute value="/resources/js/myprojects.js" />
 		</put-list-attribute>
 	</definition>
 	<definition name="webdev-1" template="/WEB-INF/views/modal-projs/webdev-1.jsp">

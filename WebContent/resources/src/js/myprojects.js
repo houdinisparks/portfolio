@@ -7,6 +7,10 @@ $(document).ready(function() {
 		gutter : 15
 	});
 	
+//	$("#modalDesc").dialog({
+//		autoOpen: false
+//	});
+	
 	// #modal-body replacement handler
 	// ajax call to controller to replace modal-body.html()
 	$(".js-button").click(function() {
@@ -20,9 +24,9 @@ $(document).ready(function() {
 	        url : 'myprojects/proj',
 	        data:{id:projId},
 	        type: 'GET',
-
 	        success: function(data){
 	            $('#modalDesc .modal-body').html(data);
+	            $('#modalDesc').modal("show");
 	        }
 	    });
 		
