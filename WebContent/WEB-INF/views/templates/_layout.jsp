@@ -14,7 +14,8 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>wong yan yee</title>
 
 <c:choose>
@@ -33,7 +34,8 @@
 
 		<script
 			src="<s:url value="/resources/bower_components/jquery/dist/jquery.min.js"/>"></script>
-
+		<script
+			src="<s:url value="/resources/bower_components/bootstrap/dist/js/bootstrap.min.js"/>"></script>
 		<!-- scripts scriptlist imported attribute from tiles.xml-->
 		<c:forEach var="script" items="${scriptlist_dev}">
 			<script src="<s:url value="${script}"/>"></script>
@@ -62,9 +64,6 @@
 </c:choose>
 
 
-
-
-
 </head>
 <body class="container-fluid">
 	<div class="row">
@@ -79,9 +78,10 @@
 						<a class="btn btn-1 col-xs-5 col-md-offset-2 col-md-8"
 							href="<s:url value="/home"/>"> <svg> <rect x="0" y="0"
 									fill="none" width="100%" height="100%" /> </svg>
-							<div class="nav-button-text">about mee</div>
+							<div class="nav-button-text">about me</div>
 
-						</a> <a class="btn btn-1 col-xs-5 col-xs-offset-1 col-md-offset-2 col-md-8"
+						</a> <a
+							class="btn btn-1 col-xs-5 col-xs-offset-1 col-md-offset-2 col-md-8"
 							href="<s:url value="/myprojects"/>"> <svg> <rect x="0"
 									y="0" fill="none" width="100%" height="100%" /> </svg>
 							<div class="nav-button-text">my projects</div>

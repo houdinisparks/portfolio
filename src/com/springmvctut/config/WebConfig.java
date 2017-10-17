@@ -20,7 +20,6 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 @ComponentScan("com.springmvctut.controllers") // search for components in this.
 												// They are indicated by
 												// @Controllers
-
 public class WebConfig extends WebMvcConfigurerAdapter {
 
 	@Autowired

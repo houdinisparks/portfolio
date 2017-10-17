@@ -13,7 +13,19 @@
 	</definition>
 	<definition name="myprojects" extends="layout">
 		<put-attribute name="content" value="/WEB-INF/views/myprojects.jsp" />
+		<put-list-attribute name="csslist_dev" inherit="true">
+			<add-attribute value="/resources/css/myprojects.css" />
+		</put-list-attribute>
+		<put-list-attribute name="scriptlist_dev" inherit="true">
+			<add-attribute
+				value="resources/bower_components/masonry/dist/masonry.pkgd.min.js" />
+			<add-attribute value="resources/js/myprojects.js" />
+		</put-list-attribute>
 	</definition>
-
-
+	<definition name="webdev-1" template="/WEB-INF/views/modal-projs/webdev-1.jsp">
+	</definition>
+	<definition name="data-1" template="/WEB-INF/views/modal-projs/data-1.jsp">
+	</definition>
+	<definition name="iot-1" template="/WEB-INF/views/modal-projs/iot-1.jsp">
+	</definition>
 </tiles-definitions> 

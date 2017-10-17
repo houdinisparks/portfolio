@@ -1,0 +1,34 @@
+{
+	"web-development":[
+		{
+			"title":"Interactive Project Lifecycle",
+			"proj-id" : "webdev-1",
+			"description":"This project introduces an interactve online web platform to view business process cycle documentations instead of viewing it in the form of static PDF documents.",
+			"report-link":"NA due to NDA",
+			"poster-link":"https://drive.google.com/file/d/0By1GEJQk8NZkWmdsQ3dVaW05LVk/view?usp=sharing",
+			"github-link":"NA due to NDA"
+		}
+	],
+	
+	"data-analytics":[
+		{
+			"title":"Netflix Recommendation using Restricted Boltzmann Machine",
+			"proj-id" : "data-1",
+			"description":"To recommend movies to users based on what other users have liked.",
+			"report-link":"",
+			"poster-link":"something.com",
+			"github-link":"something.github.com"
+		}
+	],
+	
+	"iot":[
+		{
+			"title":"IOTPet",
+			"proj-id":"iot-1",
+			"description":"Based on a harvard study (see below for reference), 1 in 4 kids drink no water during the course of their day. Our IOT solution was inspired by a game similar to the popular pet game 'Tamagotchi' to encourage children \n to drink water regularly.", 
+			"report-link":"https://drive.google.com/open?id=0By1GEJQk8NZkV0x5aGRUYVRPZGc",
+			"poster-link":" https://drive.google.com/file/d/0By1GEJQk8NZkWmdsQ3dVaW05LVk/view?usp=sharing",
+			"github-link":"https://github.com/houdinisparks/IOT"
+		}
+	]
+}
