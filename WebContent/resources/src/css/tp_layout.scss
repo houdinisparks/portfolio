@@ -9,11 +9,15 @@ html, body{
 	 box-sizing: border-box;
 	 font-family: Roboto, sans-serif;
 	 
-	 @media screen and (min-device-width : 1285px){
+ 	 @media screen and (min-device-width : 1559px){
 	 	 font-size: 12px;
 	 }
 	 
-	  @media screen and (max-device-width : 1285px){
+	 @media screen and (min-device-width : 1441px){
+	 	 font-size: 11.5px;
+	 }
+	 
+	  @media screen and (max-device-width : 1440px){
 	  	 font-size: 9px;
 	  }
 }
@@ -49,7 +53,7 @@ html, body{
 		}
 		
 /* 		desktop large screen */
-		@media only screen and (min-width : 768px){
+		@media only screen and (min-width : 992px){
 			height:inherit;
 		}
 		
@@ -60,7 +64,7 @@ html, body{
 /* 			margin-bottom: 15%; */
 
 			/* 		large screens */
-			@media only screen and (min-width : 768px){
+			@media only screen and (min-width : 992px){
 				margin-top: 70%;
 				margin-bottom: 15%;
 			}
@@ -70,7 +74,7 @@ html, body{
 		.row#nav-bar-content{
 		
 			/* 		mobile */
-			@media only screen and (max-width : 768px){
+			@media only screen and (max-width : 992px){
     			position: relative;
 				display: flex;
 			    align-items: center;
@@ -79,7 +83,7 @@ html, body{
 			}
 			
 			/* 		desktop large screen */
-			@media only screen and (min-width : 768px){
+			@media only screen and (min-width : 992px){
 /* 				height: inherit; */
 			}
 		
@@ -102,7 +106,7 @@ html, body{
 		}
 		
 	/* 		desktop large screen */
-		@media only screen and (min-width : 768px){
+		@media only screen and (min-width : 992px){
 			height: inherit;
 		}
 	
@@ -142,7 +146,7 @@ $white: #ffffff;
 /* 	  width: 100%;  */
 
 		/* 		large screens */
-		@media only screen and (min-width : 768px){
+		@media only screen and (min-width : 992px){
 			margin-bottom: 10%;
 		}
   

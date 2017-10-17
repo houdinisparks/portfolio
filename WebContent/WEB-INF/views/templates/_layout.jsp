@@ -91,7 +91,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="content" class="col-lg-10">
+		<div id="content" class="col-md-10 col-sm-12">
 
 			<t:insertAttribute name="content" />
 		</div>

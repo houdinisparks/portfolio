@@ -17,7 +17,7 @@
 				</p>
 				<div class="item-overlay">
 					<button class="js-button btn btn-secondary-outline center-block"
-						data-toggle="modal" data-target="#modalDesc" type="button"
+						 type="button"
 						value="viewmore" role="button">View more</button>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 				</p>
 				<div class="item-overlay">
 					<button class="js-button btn btn-secondary-outline center-block"
-						data-toggle="modal" data-target="#modalDesc" type="button"
+						 type="button"
 						value="viewmore" role="button">View more</button>
 				</div>
 			</div>
@@ -71,7 +71,6 @@
 					<button class="js-button btn btn-secondary-outline center-block"
 						 type="button"
 						value="viewmore" role="button">View more</button>
-<!-- 						data-toggle="modal" data-target="#modalDesc" -->
 				</div>
 			</div>
 		</c:forEach>

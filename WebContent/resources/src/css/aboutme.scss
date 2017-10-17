@@ -17,14 +17,14 @@ $client-server-content:#F7BFE8;
 
 
 	/* 		mobile */
-	@media only screen and (max-width : 768px){
+	@media only screen and (max-width : 992px){
 /* 	    height: auto; */
 	    margin-top: 5%;
 	    margin-bottom: 5%;
 	}
 	
 /* 		desktop large screen */
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 /* 	    position: absolute; */
 /* 	    right: 0px; */
 /* 	    z-index: 1; */
@@ -53,7 +53,7 @@ $client-server-content:#F7BFE8;
 		.title-content-header{
 			font-weight: 400;
 			
-			@media only screen and (max-width : 768px){
+			@media only screen and (max-width : 992px){
 				+ p{
 					line-height: 1.2em;
 	    			margin-top: -2%;
@@ -64,7 +64,7 @@ $client-server-content:#F7BFE8;
 	}
 }
 
-@media only screen and (min-width : 768px){
+@media only screen and (min-width : 992px){
 	.padding-right-4{
 		padding-right:5%;
 		
@@ -75,7 +75,7 @@ $client-server-content:#F7BFE8;
 //header
 #header {
 	background-color: $header-color;
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 		background-image: -webkit-linear-gradient(88deg, $background-color 29%, $header-color 30%);
 	    display: flex;
     	align-items: center;
@@ -102,7 +102,7 @@ $client-server-content:#F7BFE8;
 #footer{
 	background-color: $header-color;
 	
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 		background-image: -webkit-linear-gradient(92deg, $header-color 71%,  $background-color 72%);
 	}
 	
@@ -120,7 +120,7 @@ $client-server-content:#F7BFE8;
 .blue-board{
 	background-color: $blue-board;
 	
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 /*     	height: 73%; */
 /*    	    margin-top: 2%; */
 	}
@@ -186,7 +186,7 @@ $client-server-content:#F7BFE8;
 	}
 	
 	/* 		desktop large screen */
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 		height:100%;
 		margin-top: -1%;
 	}
@@ -231,7 +231,7 @@ $client-server-content:#F7BFE8;
 
 #board-2{
 	
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 	    height: 66%;
     	top: 7%;
 /* 		margin-top: 10.5%; */
@@ -253,7 +253,7 @@ $client-server-content:#F7BFE8;
 	
 #board-3{
 	
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 	   	height: 60%;
    		top: 13%;
 		position:relative;
@@ -287,7 +287,7 @@ $client-server-content:#F7BFE8;
 	}
 	
 /* 		desktop large screen */
-	@media only screen and (min-width : 768px){
+	@media only screen and (min-width : 992px){
 		height:70%;
 		
 		.col-md-offset-1{
@@ -307,7 +307,7 @@ $client-server-content:#F7BFE8;
 /* 		    transform: translateY(50%); */
 		}
 		
-		@media only screen and (min-width : 768px){
+		@media only screen and (min-width : 992px){
 			    margin-top: 3%;
 			    margin-bottom: -3%;
 		}
